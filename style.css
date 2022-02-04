@@ -73,7 +73,13 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /* Resize containers */
   #lezioni {
     width: 100%;
@@ -83,24 +89,30 @@ img {
   .right,
   .central {
     width: 100% !important;
-    float: none !important; 
-    margin-bottom: 3rem;
   }
   
   .row {
-    font-size: 1.2rem;
     background-color: #f2f2cd;
+    margin-top: 30px;
     width: 100%;
   }
 
   /* Content containers */
   
-  #lezioni img {
+  img {
+    margin-top: 30px !important;
+    display: inline-block !important;
     width: 35%;
     height: 35%;
   }
 
   #steps .row {
     background-color: #fff;
+  }
+
+  .first,
+  .second,
+  .third {
+    margin-top: 30px !important;
   }
 }
