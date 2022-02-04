@@ -113,6 +113,10 @@ img {
     float: left;
   }
 
+  #why div > img {
+    margin-top: 30px !important;
+  }
+
   #lezioni .left,
   #lezioni .right,
   #steps .right {
