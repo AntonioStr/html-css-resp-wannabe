@@ -138,6 +138,7 @@ img {
   #lezioni,
   #steps,
   #why {
+    box-shadow: none;
     width: 100%;
   }
 
